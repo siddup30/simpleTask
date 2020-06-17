@@ -1,0 +1,305 @@
+@media only screen and (max-width: 768px) {
+    .wrapper{
+        width: 100% !important;
+        margin: 0 auto;
+        background: #E5E5E5;
+    }
+    .swiper-container{
+        width: -webkit-calc(100% - 16px);
+        width:    -moz-calc(100% - 16px);
+        width:         calc(100% - 16px);
+    }
+}
+
+.wrapper{
+    width: 360px;
+    margin: 0 auto;
+    background: #E5E5E5;
+}
+
+.header-box1{
+    height: 27px;
+    background: #02BAB0;
+}
+
+.header-box2{
+    height: 207px;
+    background: #00D1C1;
+    padding-top: 24px;
+    padding-left: 16px;
+}
+
+.welcome{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.subline-welcome{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.cr-card{
+    height: 212px !important;
+    border-radius: 10px;
+    display: inline;
+    padding: 24px;
+}
+
+.swiper-container{
+     right: 0;
+     width: 94.5%;
+ }
+
+.bill-tag-box{
+    background: #e38e81;
+    border-radius: 2px;
+    height: 16px;
+    padding: 4px;
+}
+.bill-tag-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 9px;
+    letter-spacing: 0.5px;
+    color: #E33F37;
+}
+
+.spent-text{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: #888888;
+}
+
+.spent-price{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.pay-button{
+    height: 50px;
+    left: 40px;
+    top: 255px;
+    background: linear-gradient(90deg, #00D1C1 0%, #00D1DC 100%);
+    border-radius: 4px;
+    margin-top: 15px;
+    display: inline-block;
+    transition: 300ms;
+}
+
+.pay-button:hover, .pay-button:focus {
+    cursor: pointer;
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+.pay-button p{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.recharge-bill-box{
+margin-top: 127px;
+background: #fff;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.06);
+height: 202px;
+margin-bottom: 16px;
+}
+
+.recharge-bill-box-header, .clients-box-header, .transaction-box-header{
+padding: 8px 16px;
+height: 30px;
+border-bottom: 1px solid #E0E0E0;
+}
+.recharge-bill-box-header p, .clients-box-header p, .transaction-box-header p{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+color: #888888;
+}
+.recharge-bill-box-body{
+padding: 20px 0;
+}
+
+/*.recharge-bill-sub-box{
+margin-right: 21.25px;
+margin-left: 21.25px;
+}*/
+
+.recharge-bill-sub-box p, .clients-box-sub-box p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #888888;
+}
+
+.clients-box{
+    height: 142px;
+    background: #fff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.06);
+    margin-bottom: 16px;
+}
+
+.clients-box-body{
+    height: 111px;
+    padding: 16px 18px;
+    overflow-x: scroll;
+}
+.clients-box-sub-box{
+    margin-right: 24px;
+}
+.client-circle{
+    width: 56px;
+    height: 56px;
+    background: #F6F6F6;
+    border-radius: 44px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.transaction-box{
+    height: 286px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.06);
+}
+
+.transaction-rows{
+    padding: 16px 18px;
+}
+
+.transaction-rows-clients{
+    margin-left: 16px;
+}
+.client-name{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.color-grey{
+    color: #888888;
+}
+
+.client-sub{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.autopay-box{
+    background: #B5EAE6;
+    border-radius: 4px;
+    height: 16px;
+    margin-left: 16px;
+    padding: 2px 6px;
+}
+
+.autopay-box img, .status-box img{
+    margin-right: 2px;
+}
+.autopay-box p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 12px;
+    color: #00A699;
+}
+
+.status-box{
+    background: #e1dede;
+    border-radius: 2px;
+    height: 14px;
+    padding: 2px 2.5px;
+}
+
+.status-box p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    color: #888888;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+.cashback-message{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 18px;
+    color: #494949;
+    margin-top: 8px;
+}
+
+.color-orange{
+    color: #fd8d06 !important;
+}
+
+footer{
+    margin-top: 32px;
+    height: 56px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.07);
+}
+
+.footer-menu{
+    padding:8px 0 8px 0;
+}
+
+.footer-menu.active{
+    color: #00A699;
+    border-top: 2px solid;
+}
+
+.footer-menu p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 6px;
+}
+
+.recharge-bill-sub-box :hover, .clients-box-sub-box:hover{
+    cursor: pointer;
+    transform: scale(0.90);
+    box-shadow: 3px 2px 22px 1px rgba(240, 238, 238, 0.24)
+}
